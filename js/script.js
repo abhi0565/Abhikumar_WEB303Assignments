@@ -11,56 +11,43 @@ $(function () {
         });
     
         function success(position) {
-    
-            // console.log("Position object: ", position);
+               
            $("#locationhere").html("latitude: " +position.coords.latitude+ "<br>"+"longitude: " + position.coords.longitude);
-            let location = {
+           let location = {
             latitude: position.coords.latitude,
             longitude: position.coords.longitude,
             };
             localStorage.setItem("locationobject", JSON.stringify(location));
-    
+        
+
          if (localStorage.getItem("locationobject")) {
             let locationObject = localStorage.getItem("locationobject");
             let locobj = JSON.parse(locationObject);
+            let locationNew = {
+                latitude: position.coords.latitude,
+                longitude: position.coords.longitude,
+                };
+           
+            localStorage.setItem("locationobject", JSON.stringify(locationNew));
 
-            $('#content').append("<h2>old location</h2>"+"latitude: " +locobj.latitude+ "<br>"+"longitude: " + locobj.longitude);
-            $('#content').append("<h2>welcome to the page</h2>");
-            $('#content').append("<h4>you traveled the"+calcDistanceBetweenPoints(locobj.latitude, locobj.longitude, position.coords.latitude, position.coords.longitude)+"</h4>");
-          }
-          else{
-            $('#content').append("<h2></h2>");
-
-          }
-
- 
-        }
-
+            $('#content').append("<h2>old location</h2>"+"latitude: " + locobj.latitude+ "<br>"+"longitude: " + locobj.longitude);
+            $('#content').append("<h2>welcome back to the page</h2>");
+            $('#content').append("<h4>you traveled the   "+ calcDistanceBetweenPoints(locobj.latitude,locobj.longitude,position.coords.latitude,position.coords.longitude)/1000 +" km"+"</h4>");
+             
           
-    });
+           
 
-    // let location = {
-    //     latitude: position.coords.latitude,
-    //     longitude: position.coords.longitude,
-    // };
-    // localStorage.setItem("loc", JSON.stringify(location));
-    // let locobject = localStorage.getItem("foodObject");
-    // let lObject = JSON.parse(locobject);
-    // console.log("location: ", lObject.latitude,lObject.longitude);
+        }
+          else{
+           
+           
+            
+           
+            $('#content').append("<h2>welcome to the page for first time</h2>");
+          }
+         
 
-   
-
-
-
-
-    // if (localStorage.getItem("location")) {
-    //      let loc = localStorage.getItem("location");
-    //       $("h1").html(loc);
-    //   }
-
-    // localStorage.setItem("food", "apple");
-    // let foodItem = localStorage.getItem("food");
-    // console.log(foodItem);
+        }
 
 
     // DO NOT EDIT ANY CODE IN THIS FUNCTION DEFINTION
@@ -83,5 +70,5 @@ $(function () {
         return (R * c);
     }
 
-
+});
 
