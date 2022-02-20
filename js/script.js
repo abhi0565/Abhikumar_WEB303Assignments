@@ -17,7 +17,7 @@ $(function () {
             latitude: position.coords.latitude,
             longitude: position.coords.longitude,
             };
-            localStorage.setItem("locationobject", JSON.stringify(location));
+           
         
 
          if (localStorage.getItem("locationobject")) {
@@ -40,10 +40,8 @@ $(function () {
         }
           else{
            
-           
-            
-           
             $('#content').append("<h2>welcome to the page for first time</h2>");
+            localStorage.setItem("locationobject", JSON.stringify(location));
           }
          
 
