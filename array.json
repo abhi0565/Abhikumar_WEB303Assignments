@@ -1,0 +1,52 @@
+
+    [
+        {
+            "firstname": "Robert",
+            "lastname": "john Downey Jr.",
+            "moviename": "iron men",
+            "charactername": "iron men",
+            "genre": "action/scifi"
+        },
+        {
+            "firstname": "Christopher ",
+            "lastname": "Robert Evans",
+            "moviename": "captain america",
+            "charactername": "captain america",
+            "genre": "action/scifi"
+        },
+        {
+            "firstname": "Chris",
+            "lastname": "Hemsworth",
+            "moviename": "thor",
+            "charactername": "thor",
+            "genre": "action/scifi"
+        },
+        {
+            "firstname": "Tobey",
+            "lastname": "Maguire",
+            "moviename": "spidermen",
+            "charactername": "spidermen",
+            "genre": "action/scifi"
+        },
+        {
+            "firstname": "Henry",
+            "lastname": "Jonathan",
+            "moviename": "antman",
+            "charactername": "antman",
+            "genre": "action/scifi"
+        },
+        {
+            "firstname": "Mark",
+            "lastname": "Alan Ruffalo",
+            "moviename": "hulk",
+            "charactername": "hulk",
+            "genre": "action/scifi"
+        },
+        {
+            "firstname": "Benedict",
+            "lastname": "Timothy Carlton Cumberbatch",
+            "moviename": "dr strange",
+            "charactername": "dr strange",
+            "genre": "action/scifi"
+        }
+    ]
