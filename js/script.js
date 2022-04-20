@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+
 $(function () {
     $('#photo-viewer').customPhotoViewer().show().on('click', '.photo-box', function (e) {
         var $content = $(this).clone().find('img').css({
@@ -23,3 +25,4 @@ $(function () {
         })("ValuePassedIn");
     });
 });
+}
