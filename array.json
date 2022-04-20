@@ -1,0 +1,67 @@
+{
+    "characters" : [
+        {
+            "firstname": "Robert",
+            "lastname": "john Downey Jr.",
+            "moviename": "iron men",
+            "date": "2013/06/01",
+            "charactername": "iron men",
+            "genre": "action/scifi",
+            "rating": "9"
+        },
+        {
+            "firstname": "Christopher ",
+            "lastname": "Robert Evans",
+            "moviename": "captain america",
+            "date": "2012/11/04",
+            "charactername": "captain america",
+            "genre": "action/scifi",
+            "rating": "8"
+        },
+        {
+            "firstname": "Chris",
+            "lastname": "Hemsworth",
+            "moviename": "thor",
+            "date": "2013/12/13",
+            "charactername": "thor",
+            "genre": "action/scifi",
+            "rating": "6.5"
+        },
+        {
+            "firstname": "Tobey",
+            "lastname": "Maguire",
+            "moviename": "spidermen",
+            "date": "2015/01/01",
+            "charactername": "spidermen",
+            "genre": "action/scifi",
+            "rating": "7.5"
+        },
+        {
+            "firstname": "Henry",
+            "lastname": "Jonathan",
+            "moviename": "antman",
+            "date": "2017/02/10",
+            "charactername": "antman",
+            "genre": "action/scifi",
+            "rating": "9.5"
+        },
+        {
+            "firstname": "Mark",
+            "lastname": "Alan Ruffalo",
+            "moviename": "hulk",
+            "date": "2016/04/08",
+            "charactername": "hulk",
+            "genre": "action/scifi",
+            "rating": "7"
+        },
+        {
+            "firstname": "Benedict",
+            "lastname": "Timothy Carlton Cumberbatch",
+            "moviename": "dr strange",
+            "date": "2019/09/11",
+            "charactername": "dr strange",
+            "genre": "action/scifi",
+            "rating": "8.9"
+        }
+    ]
+}
